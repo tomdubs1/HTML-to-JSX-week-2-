@@ -118,16 +118,32 @@ body {
 }
 
 .download-button.primary {
-    background-color: #111;
+    background-color: #91a294;
     color: #fff;
 }
 
 .download-button.primary:hover {
-    background-color: #333;
+    background-color: #253008;
 }
 
 .download-button.primary:active {
-    background-color: #333;
+    background-color: #253008;
+}
+
+.download-button.outline {
+    background-color: transparent;
+    border: 1px solid #111;
+    color: #111;
+}
+
+.download-button.outline:hover {
+    background-color: #253008;
+    color: #fff;
+}
+
+.download-button.outline:active {
+    background-color: #253008;
+    color: #fff;
 }
 
 .page-label {
